@@ -1,0 +1,10 @@
+[caps]
+platformName = 'iOS'
+deviceName = ''
+app = ''
+appPackage =''
+autoGrantPermissions = true
+appActivity =''
+automationName ='XCUITest'
+newCommandTimeout ='3600'
+url ='http://127.0.0.1:4723/wd/hub'

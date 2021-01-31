@@ -1,0 +1,12 @@
+[caps]
+platformName = 'Android'
+deviceName = 'emulator-5554'
+app = 'app-world-beta.apk'
+appPackage ='vivino.web.app.beta'
+autoGrantPermissions = true
+appActivity ='com.sphinx_solution.Launcher'
+automationName ='UiAutomator2'
+newCommandTimeout ='3600'
+url ='http://127.0.0.1:4723/wd/hub'
+
+

@@ -1,0 +1,11 @@
+# config/cucumber.yml
+##YAML Template
+
+android_POM_TEST: PLATFORM='Android' SIMULATOR='False' --tags '@POM_Test and @Android' --format html -o "report_android_POM_TEST.html"
+android_WIP: PLATFORM='Android' SIMULATOR='False' --tags '@WIP and @Android' --format html -o "report_android_WIP.html"
+android_TEST: PLATFORM='Android' SIMULATOR='False' --tags '@Test and @Android and not @Simulator' --format html -o "report_android_TEST.html"
+android_sim_TEST: PLATFORM='Android' SIMULATOR='True' --tags '@Test and @Android and @Simulator' --format html -o "report_android_sim_TEST.html"
+android_ALL: PLATFORM='Android' SIMULATOR='False' --tags '@Android' --format html -o "report_android_ALL.html"
+ios_WIP: PLATFORM='iOS' SIMULATOR='False' --tags '@WIP and @iOS' --format html -o "report.html"
+ios_sim: PLATFORM='iOS' SIMULATOR='True' --tags @iOS --tags @Test --tags @Simulator --format html -o "report.html"
+
