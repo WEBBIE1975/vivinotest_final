@@ -24,6 +24,11 @@ Only the report for all the tests has been added to the folder.
 How to run the tests :
 ----------------------
 
+start up appium server from the terminal:
+open a teminal -> appium ( Enter )
+
+open a terminal in the vivino_start folder :
+
 In the terminal you can enter different commands to run different tests and platforms ( ios is NOT implemented in the framework,
 but a dummy file configuration has been created to see the structure ):
 
