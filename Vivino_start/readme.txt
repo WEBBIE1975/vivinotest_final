@@ -21,6 +21,11 @@ $driver.find_element(:id, "vivino.web.app.beta:id/getstarted_layout").click
 Only the report for all the tests has been added to the folder.
 
 
+NOTE :
+
+Remember to update the appium.txt files with the correct information.
+
+
 How to run the tests :
 ----------------------
 
@@ -54,7 +59,7 @@ cucumber.yml file   -   This file holds the information used for the configurati
                         the env.rb file.
 
 env                 -   Load the AccountInfo.yml file that is used later in the tests.
-                        The right configuration file is then loaded based on the cucumber information
+                        The right configuration file is then loaded based on the cucumber information ( it will load the correct appium.txt file )
 
 hooks               -   Start and quit driver used for the automation.
 
