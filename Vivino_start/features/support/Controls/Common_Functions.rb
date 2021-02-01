@@ -1,6 +1,8 @@
 
   module LocatorModule
-  #Todo: need to refactor wait mechanism from poll action to poll element exist
+  # The content of this file is NOT used in the project. This is ust to show that Common functions can be placed here and used across the the project.
+  # In here the functions for swipe, scroll and other functionality should be placed.
+    
   def selectTab(tab_name)
     selectByName(tab_name)
   end
